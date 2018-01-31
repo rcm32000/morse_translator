@@ -40,4 +40,11 @@ class Translator
                     "0" => "-----",
                     " " => " "}
   end
+
+  def eng_to_morse(eng)
+    @string = (eng)
+    splt = string.downcase.split(//)
+    # mrse = splt.map!.sub(splt, @dictionary)
+    # trnsltd = mrse.join
+  end
 end
